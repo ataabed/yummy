@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!---website Meta-->
+    <meta charset="UTF-8">
+    <!-- viewport-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!---- project desription -->
+    <meta name="description" content="yummy resturant website ,meals ">
+    <!-- project search engine keyword-->
+    <meta name="keywords" content="yummy,resturant,meals,....etc">
+
+    <!--title will appera in bookmark-->
+    <title>Yummy </title>
+
+    <!--favicon-->
+
+    <link rel="shortcut icon" href="./images/logo/logo.png" type="image/x-icon">
+
+
+    <!---fonts-->
+    <!-- used google fonts section  -->
+
+    <!-- used other fonts section  -->
+    <!--font awsem-->
+
+    <!-- v4.6-->
+    <link rel="stylesheet" href="./fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+
+    <!--v6-->
+    <link rel="stylesheet" href="./fonts/all.min.css">
+
+    <!--my CSS Basics -->
+    <link rel="stylesheet" href="./myStyle/myStyleBasics.css">
+
+    <!---bootstrap css file -->
+    <link rel="stylesheet" href="./myStyle/bootstrap.min.css ">
+    <!---- Main css file link -->
+    <link rel="stylesheet" href="./myStyle/myStyle.css">
+    <!-- my media query style-->
+    <link rel="stylesheet" href="./myStyle/myMediaQuery.css">
+
+    <!--My page Title-->
+
+</head>
+
+<body>
+    <div class="loading-screen position-fixed top-0 start-0 end-0 bottom-0 bg-black justify-content-center align-items-center "
+        >
+<!--         <i class="fa fa-spinner fa-spin fa-5x "></i> -->
+<i class="fa-solid fa-spinner fa-spin fa-5x  text-white"></i>
+
+    </div>
+    <section id="MainDisplay" class=" py-5  d-flex justify-content-center align-content-center ">
+
+
+        <div id="Side_NavBar" class="min-vh-100    ">
+
+            <div class="nav-tab   d-flex flex-column justify-content-between min-vh-100 p-4 bg-black text-white">
+
+                <!--links-->
+                <div class="links ">
+                    <ul class="list-unstyled overflow-hidden">
+                        <li class="py-2" id="searchLink">Search</li>
+                        <li id="mealCategoryLink" class="py-2">Categories</li>
+                        <li id="MealAreaLink" class="py-2">Area</li>
+                        <li id="IngredientsLink" class="py-2">Ingredients</li>
+                        <li id="ContactLink" class="py-2">Contact Us</li>
+                    </ul>
+                </div>
+                <!--footer-->
+
+                <div class="nav-footer">
+                    <div class="icons">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-solid fa-globe"></i>
+                    </div>
+                    <div class="footer">
+                        <p>Copyright Â© 2019 All Rights <br>Reserved.</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div   class="nav-header d-flex flex-column justify-content-between py-4 text-center px-2 bg-white text-black">
+
+                <img class="logo" src="./images/logo/logo.png" class="" alt="" srcset="">
+                <i class="fa-solid open-close-icon fa-2x  fa-align-justify"></i>
+                <div>
+                    <i class="fa-solid fa-globe d-block"></i>
+                    <i class="fa-solid fa-share-nodes"></i>
+                </div>
+
+            </div>
+        </div>
+
+        <div id="MainDisplay_container" class="container">
+
+            <div id="frm_search" class="d-none mx-auto mb-4 justify-content-center">
+                <div class="col-4">
+                    <input type="text" class=" form-control  " id="inputSearchByname" placeholder="Search By name">
+
+                </div>
+                <div class="col-4">
+                    <input type="text" class="form-control  " id="inputSearchByFirstLetter"
+                        placeholder="Search By first letter">
+
+                </div>
+
+            </div>
+
+            <div>
+                <div id="MainDisplay_row" class="row  g-4 justify-content-center  ">
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!--- scipt sectiopn -->
+
+
+    <!---bootstrab script bundle -->
+    <script src="./script/jquery-3.7.1.min.js"></script>
+    <script src="./script/bootstrap.bundle.min.js"></script>
+    <script type="module" src="./script/myScript.js"></script>
+
+    <!--- Script Section -->
+</body>
+
+</html>

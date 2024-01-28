@@ -1,0 +1,188 @@
+
+
+
+/* basic css section*/
+/* general css  web site section*/
+
+/* end of general css  web site section*/
+
+
+/* start of root section*/
+
+
+/* end of root section*/
+/*@font-face section*/
+
+/* end of @font-face section*/
+
+/*general html css data*/
+html
+{
+    scrollbar-gutter: stable;
+    /* overflow-y: scroll !important; */
+}
+body
+{
+    background-color: black;
+    overflow: hidden;
+ 
+   
+}
+a{
+    text-decoration: none;
+}
+/*loader*/
+.loading-screen{
+    z-index: 999;
+    display: flex;
+}
+
+.loading-screen i{
+   font-size: 8rem;
+}
+.inner-loading-screen{
+    position: absolute;
+    z-index: 9;
+    background-color: #0D0D0D;
+    display: flex;
+}
+#MainDisplay
+{
+    width: 100%;
+    position: relative;
+    
+}
+/*side Navbar*/
+#Side_NavBar{
+    
+    position: fixed;
+    top:0;
+opacity: 0;
+
+    display:flex;
+    z-index: 1;
+}
+.nav-tab
+{
+
+}
+.logo
+{
+    width: 3rem;
+}
+
+#Side_NavBar i.open-close-icon,i,#btnSubmit
+{
+    cursor: pointer;
+}
+.links ul li
+{
+    cursor: pointer;
+    position: relative;
+    top: 0;
+    
+}
+
+
+.divChild
+{
+    position: relative;
+    overflow: hidden;
+}
+
+.divChild:hover  {
+    cursor: pointer;
+
+} 
+
+@keyframes imageOerlayAnimation {
+  /*   from{top:100%}
+    to{top:0%} */
+    from   {top:100%;}
+
+  to {top:0%}
+}
+.img_overlay
+{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,255,255,0.8);
+
+display: flex;
+justify-content: start;
+align-items: center;
+position: absolute;
+top: 100%;
+left: 0;
+}
+
+.lstRecipe
+{
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.lstRecipe li{
+    
+    text-align: center;
+    background-color:#CFF4FC ;
+ 
+    color: black;
+    
+}
+
+/*   .divChild:hover .img_overlay
+{
+    animation:imageOerlayAnimation ;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}  
+    */
+
+/* end of general html css data*/
+
+/* common classes */
+
+/*end of common classes */
+
+/* main sections general css*/
+
+/*nav bar*/
+
+/*hero section*/
+
+
+/*like background  , font ,header , margin ,padding */
+
+/*footer section*/
+/* end of  main sections general css*/
+/*animation section */
+
+
+/* end of animation section */
+
+
+
+/*pseudeo classes */
+
+
+
+/*End of pseudeo classes */
+
+
+
+
+/*pseudeo element */
+
+
+
+/*End of pseudeo element */
+
+
+
+/*End of basic css section*/
+
+/* page specific CSS */
+
+
+/*End of page specific CSS */
